@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<html>
+  <div id="header">
+    <div class="cabecalho">
+	<h1 id="title" class="titulo">Titulo</h1>
+	<p id="description" class="intro">Pequeno formulário web feito apenas com html5 e css básico </p>
+    </div>
+  </div>
+  <div id="name-div" class="container">
+    <div class="div0">
+  <form id="survey-form" class="formulario">
+		<br>
+    <div class="div1">
+	<input id="name" type="text" placeholder="nome" required></input>
+ <label for="name" id="name-label">nome</label>
+	</br>
+	</div>
+<div id="email-div" class="div2">
+	<br>
+	<input id="email" type="email" placeholder="e-mail" required></input>
+<label for="email" id="email-label">e-mail</label>
+	</br>
+</div>
+<div id="number-div" class="div3">
+	<br>
+	<input id="number" type="number" min="1" max="100" step="1" placeholder="idade" required></input>
+<label for="number" id="number-label">idade</label>
+	</br>
+</div>
+<br>
+<div id="dropdown" class="div4">
+	<select name="escolhas">
+		<option value="escolha0">escolha uma das opções</option>
+		<option value="escolha1">escolha1</option>
+		<option value="escolha2">escolha2</option>
+		<option value="escolha3">escolha3</option>
+	</select>
+</div>
+<div class="div5">
+	<br>
+	<input id="radio0" type="radio" name="radio" value="0"></input>
+	</br>
+	<br>
+	<input id="radio1" type="radio" name="radio" value="1"></input>
+	</br>
+	<br>
+	<input id="radio2" type="radio" value="2" name="radio"></input>
+	</br>
+</div>
+</br>
+<div id="dropdown2" class="div6">
+	<select name="maisescolhas">
+		<option value="escolha4">escolha uma das opções</option>
+		<option value="escolha5">escolha4</option>
+		<option value="escolha6">escolha5</option>
+		<option value="escolha7">escolha6</option>
+	</select>
+</div>
+</br>
+<div id="checkboxes" class="div7">
+	<input id="checkbox0" type="checkbox" value="0" name="checkbox0"></input>
+<label for="checkbox0">checkbox0</label>
+	<br>
+	<br>
+	<input id="checkbox1" type="checkbox" value="1" name="checkbox1"></input>
+<label for="checkbox1">checkbox1</label>
+	</br>
+	<br>
+	<input id="checkbox2" type="checkbox" value="2" name="checkbox2"></input>
+<label for="checkbox2">checkbox2</label>
+	</br>
+</div>
+<br>
+<div class="div8">
+	<textarea name="texto" rows="10" cols="35"></textarea>
+</div>
+</br>
+<div class="div9">
+<br>
+<input id ="submit" type="submit" value="enviar"></input>
+</br>
+</div>
+</div>
+</div>
+ </form>
+</html>
